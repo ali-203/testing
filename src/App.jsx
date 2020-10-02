@@ -77,7 +77,9 @@ return(
   <input type="text" placeholder="Enter Your Last Name" name="lName"onChange={inputEvent}
   value={fullName.lname} />
    <input type="email" placeholder="Enter Your email" name="email"onChange={inputEvent}
-  value={fullName.email} />
+  value={fullName.email}
+  autoComplete="off" />
+
 
    <input type="number" placeholder="Enter Your pjone number" name="phone"onChange={inputEvent}
   value={fullName.phone} />
